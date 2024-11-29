@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>a jornada do cristal perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um vilarejo em ruinas apos umataque misterioso.O protagonista(voce) encontra um diario antigo que fala sobre o cristal da luz,capaz de restaurar a paz.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir as pistas do diario</button>
+            <button class="btn-proximo" data-proximo="2">Consultar um sabio na floresta encantada.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Primeiro obstaculo:</p>
+            <button class="btn-proximo" data-proximo="3">montanhas gelidas:Uma tempestade ameaça sua vida</button>
+            <button class="btn-proximo" data-proximo="4">Floresta encantada:espiritos 
+             guardioes testam sua coragem</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>aliado misterioso:</p>
+            <button class="btn-proximo" data-proximo="5">Aceitar</button>
+            <button class="btn-proximo" data-proximo="6">Recusar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Armadilha:Uma ponte velha precisa ser cruzada</p>
+            <button class="btn-proximo" data-proximo="7">atravessar rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>procurar um caminho alternativo,mas perder tempo</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>o enigma</p>
+            <button class="btn-proximo" data-proximo="7">uma caverna,voce precisa entrar e decifra o enigma completo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>a reviravolta</p>
+            <button class="btn-proximo" data-proximo="8">o aliado misterioso revela intençoes duvidosas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>prova de fogo</p>
+            <button class="btn-proximo" data-proximo="9">Enfrentar a criatura em combate</button>
+            <button class="btn-proximo" data-proximo="10">Buscar dialogo e persuasao</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>escolha dificil:voce encontra o cristal da luz,mas ele esta protegido por um feitiço mortal</p>
+            <button class="btn-proximo" data-proximo="7">Arriscar-se sozinho ou pedir ajuda ao aliado</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>armadilha:uma ponte velha precisa ser cruzada</p>
+            <button class="btn-proximo" data-proximo="11">atravessar rapidamente,arriscando na queda</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>procurar um caminho alternativo,mas perder tempo</p>
+            <button class="btn-proximo" data-proximo="12">desviar das pedras do caminho alternativo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>sair da floresta encantada com o cristal guardado em sua mochila magica</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>voce retorna ao vilarejo</p>
+            <button class="btn-proximo" data-proximo="11">paz ou destruiçao,dependendo das escolhas feitas ao longo da jornada</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
